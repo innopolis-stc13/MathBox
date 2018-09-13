@@ -16,7 +16,7 @@ public class ObjectBox {
     }
 
 
-    public boolean removeElement(Object o) {
+    public boolean deleteObject(Object o) {
         return collection.remove(o);
     }
 
